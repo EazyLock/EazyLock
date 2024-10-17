@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Deep black background */
+    color: #e0e0e0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #111; /* Darker header */
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #64b5f6; /* Darker blue */
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px; /* Adjusted padding for smaller buttons */
+    background-color: #0d47a1; /* Darker button color */
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* More rounded corners */
+    text-decoration: none;
+    font-weight: 700; /* Bolder text for buttons */
+    font-size: 1rem; /* Slightly smaller font size for buttons */
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #0b3d99; /* Darker hover color */
+}
+
+.features {
+    padding: 60px 20px;
+    background-color: #111; /* Darker background */
+}
+
+.features h3 {
+    text-align: center;
+    margin-bottom: 40px; /* Increased space */
+}
+
+.feature {
+    text-align: center;
+    margin: 40px 0; /* Increased space between features */
+}
+
+.feature h4 {
+    margin-bottom: 10px;
+}
+
+.download {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.download-container {
+    margin-top: 30px; /* Add spacing above the download message */
+    text-align: center; /* Center-align contents */
+}
+
+.downloadMessage {
+    margin-top: 40px; /* Increased space above the message */
+    margin-bottom: 20px; /* Existing space below the message */
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #111; /* Darker footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #64b5f6; /* Darker blue */
+    text-decoration: none;
+}
